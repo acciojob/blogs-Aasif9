@@ -38,7 +38,7 @@ public class BlogService {
 
         blog.setUser(user);//foreign key
 
-        userRepository1.save(user);//cascade effect
+        userRepository1.save(user);//cascade  effect
 
         return blog;
     }
